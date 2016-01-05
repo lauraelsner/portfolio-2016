@@ -1,0 +1,157 @@
+/*
+Project Name: FED Template
+Client: 
+Author: Laura Elsner
+Developer: http://lauraelsner.me/
+*/
+
+/******************************************
+/* SETUP
+/*******************************************/
+/* Box Model Hack: http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+}
+/* Micro clearfix hack: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body {
+  color: black;
+  font-size: 16px;
+  background: white;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	color: #272A32;
+}
+
+.hero {
+	background-image: url('../images/grid.png');
+	height: 600px;
+	text-align: center;
+	background-size: repeat;
+	box-shadow: inset 0px 0px 10px 1px rgba(0,0,0,0.70);
+}
+
+.hero h1 {
+	margin: 0;
+	font-size: 60px;
+	padding-top: 200px;
+	color: #272A32;
+	font-family: 'Merriweather', serif;
+	text-shadow: 0px 0px 10px 1px rgba(0,0,0,0.70);
+}
+
+.hero p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	color: #272A32;
+}
+
+/*.cta-wrapper {
+	max-width: 1200px;
+}*/
+
+.case-studies {
+	float: left;
+	background-color: #F2F6F5;
+	width: 50%;
+/*	height: 150px;*/
+	padding: 20px 0;
+	text-align: center;
+	border: 2px dashed #E6E6E6;
+	padding: 0 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.case-studies p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+}
+
+.personal-projects {
+	float: left;
+	width: 50%;
+	height: 150px;
+	text-align: center;
+	background-color: #F2F6F5;
+	border: 2px dashed #E6E6E6;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	padding: 0 40px 40px 40px;
+}
+
+.personal-projects p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	display: none;
+}
+
+.button {
+	font-family: 'Roboto', sans-serif;
+	background-color: #121317;
+	background-color: #272A32;
+	max-width: 200px;
+	text-align: center;
+	border-radius: 5px;
+	padding: 10px 40px;
+	color: #F2F6F5;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	transition: all 0.5s ease;
+}
+
+.button:hover {
+	background-color: #484D5B;
+}
+
+.personal-projects .button,
+.case-studies .button {
+	margin: 0 auto;
+}
+
+.do {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	padding: 20px;
+}
+
+footer {
+	clear: both;
+}
+
+.case-studies span {
+	font-size: 16px;
+
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/******************************************
+/* SECTIONS
+/*******************************************/
+
+/******************************************
+/* PAGES
+/*******************************************/
